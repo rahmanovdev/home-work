@@ -1,0 +1,45 @@
+.triangle {
+    clip-path:
+     polygon(50% 0%, 0% 100%, 100% 100%);
+     transition: 2s;
+}
+
+.rhoumb {
+    clip-path:
+     polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+     transition: 2s;
+}
+
+.circle {
+    clip-path: circle(50% at 50% 50%);
+    transition: 2s;
+}
+
+.frame {
+    clip-path: polygon(0% 0%, 0% 100%, 25% 100%, 25% 25%, 75% 25%, 75% 75%, 25% 75%, 25% 100%, 100% 100%, 100% 0%);
+    transition: 2s;
+}
+
+.star {
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    transition: 2s;
+}
+
+.octagon {
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    transition: 2s;
+}
+
+.cub {
+    width: 300px;
+    height: 300px;
+    background: red;
+    transition: 2s;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 90px;
+}
